@@ -8,16 +8,14 @@ import { pic1, pic2, pic3, pic4 } from "../assets";
 
 const Gallery = () => {
   const scrollable = useRef(null);
-  const [length, setLength] = useState(305);
 
   const scrollIt = (toRight) => {
     scrollable.current.scrollBy({
-      left: length * (toRight ? 1 : -1),
+      left: 305 * (toRight ? 1 : -1),
       behavior: "smooth",
     });
 
     console.log({ scroll: scrollable.current.x });
-    setLength((prevState) => prevState + 305);
   };
 
   return (
