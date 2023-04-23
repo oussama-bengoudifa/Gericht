@@ -17,16 +17,16 @@ const Navbar = () => {
       <nav className="flex justify-between items-center">
         <img src={logo} className="object-container md:h-14 h-10" />
         <ul className="text md:flex hidden lg:gap-8 gap-5">
-          <li className="hover:text-golden duration-300">
+          <li className="hover:text-golden duration-300 cursor-pointer">
             <a href="/">Home</a>
           </li>
-          <li className="hover:text-golden duration-300">
+          <li className="hover:text-golden duration-300 cursor-pointer">
             <a href="/">Pages</a>
           </li>
-          <li className="hover:text-golden duration-300">
+          <li className="hover:text-golden duration-300 cursor-pointer">
             <a href="/">Contact</a>
           </li>
-          <li className="hover:text-golden duration-300">
+          <li className="hover:text-golden duration-300 cursor-pointer">
             <a href="/">Blog</a>
           </li>
         </ul>
