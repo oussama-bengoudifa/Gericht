@@ -36,7 +36,7 @@ const Contact = () => {
             <img
               src={contact}
               alt="contact_img"
-              className="w-[90%] object-contain"
+              className="md:w-[90%] w-[100%] object-contain"
             />
           </div>
         </div>

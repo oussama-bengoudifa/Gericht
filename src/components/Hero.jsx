@@ -39,7 +39,7 @@ const Hero = () => {
                     <img
                       src={src}
                       alt="hero_img"
-                      className="w-[90%] object-contain"
+                      className="md:w-[90%] h-full object-contain"
                     />
                   )}
                 </div>

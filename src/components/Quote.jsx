@@ -16,7 +16,11 @@ const Quote = () => {
       <div className="md:px-0 px-8 relative md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:absolute z-40 w-full">
         <div className="flex md:flex-row flex-col-reverse justify-center items-center gap-20">
           <div className="h-auto md:w-[500px]">
-            <img src={chef} alt="hero_img" className="w-[90%] object-contain" />
+            <img
+              src={chef}
+              alt="hero_img"
+              className="md:w-[90%] w-[100%] object-contain"
+            />
           </div>
           <div className="flex flex-col gap-16">
             <Info
