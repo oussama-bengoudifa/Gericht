@@ -15,7 +15,7 @@ const Hero = () => {
             button="explore menu"
             caption="Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus "
           />
-          <div className="h-auto w-[500px]">
+          <div className="h-auto md:w-[500px]">
             <ImageLoader src={hero} transitionTime="0.3s">
               {({ hasLoaded, shouldShowLoader, hasFailed, src }) => (
                 <div className="AwesomeOLoader">

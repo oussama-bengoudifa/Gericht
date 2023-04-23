@@ -77,7 +77,7 @@ const Awards = () => {
             <img
               src={award}
               alt="award_img"
-              className="w-[400px] h-auto object-contain"
+              className="md:w-[400px] w-[200px] h-auto object-contain"
             />
           </div>
         </div>

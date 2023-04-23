@@ -17,7 +17,7 @@ import {
 const App = () => {
   return (
     <div className="relative z-0">
-      <div className="relative min-h-screen h-max">
+      <div className="relative min-h-screen">
         <Navbar />
         <Hero />
       </div>

@@ -32,7 +32,7 @@ const Contact = () => {
               <button className="btn">visit us</button>
             </div>
           </div>
-          <div className="h-auto w-[500px]">
+          <div className="h-auto md:w-[500px]">
             <img
               src={contact}
               alt="contact_img"
