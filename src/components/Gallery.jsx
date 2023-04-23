@@ -17,7 +17,7 @@ const Gallery = () => {
     });
 
     console.log({ scroll: scrollable.current.x });
-    setLength((prevState) => prevState * 2);
+    setLength((prevState) => prevState + 305);
   };
 
   return (
