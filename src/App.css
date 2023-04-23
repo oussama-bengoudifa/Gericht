@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+@layer components {
+    html{
+        @apply bg-dark text-white tracking-s 
+    }
+    .btn{
+        @apply capitalize w-40 h-11 flex justify-center items-center bg-golden duration-700 hover:bg-goldenLight hover:text-black text-dark font-cormorant md:text-base text-sm font-bold md:leading-7 leading-6 
+    }
+    .text{
+        @apply md:text-base text-sm md:leading-7 leading-6 font-opensans text-grey
+    }
+    .title{
+        @apply md:text-[64px] md:text-left text-center text-[48px] md:leading-[83.2px] leading-[70px] font-cormorant text-golden
+    }
+    .subtitle{
+        @apply font-cormorant font-bold md:text-[23px] text-xl 
+    }
+    .main{
+        @apply max-w-7xl mx-auto md:py-4 py-2 md:px-6 px-4
+    }
+    .padding{
+        @apply py-4 px-6
+    }
+    .bg-overlay{
+        background: rgba(0,0,0,.65);
+    }
+    .footer .text{
+        @apply text-sm
+    }
+    .footer .subtitle{
+        @apply md:text-xl text-base
+    }
+    .footer .title{
+        @apply md:text-6xl text-5xl
+    }
+}
