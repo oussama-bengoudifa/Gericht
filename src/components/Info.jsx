@@ -18,7 +18,7 @@ const Info = ({ title, caption, subtitle, button, right, quote }) => {
         )}
       </div>
       {subtitle ? (
-        <p className="title max-w-xl">{title}</p>
+        <p className="title max-w-xl text-left">{title}</p>
       ) : (
         <div className={`${styles} flex flex-col gap-2`}>
           <p className="title max-w-xl">{title}</p>
