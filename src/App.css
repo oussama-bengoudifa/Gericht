@@ -17,7 +17,7 @@
         @apply md:text-base text-sm md:leading-7 leading-6 font-opensans text-grey
     }
     .title{
-        @apply md:text-[64px] md:text-left text-center text-[48px] md:leading-[83.2px] leading-[70px] font-cormorant text-golden
+        @apply md:text-[64px] md:text-left text-center text-[48px] md:leading-[83.2px] leading-[60px] font-cormorant text-golden
     }
     .subtitle{
         @apply font-cormorant font-bold md:text-[23px] text-xl 
