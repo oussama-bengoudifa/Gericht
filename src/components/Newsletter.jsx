@@ -23,7 +23,7 @@ const Newsletter = () => {
               className="flex flex-1 md:w-40 w-2/3 h-11 border border-goldenLight text font-cormorant bg-transparent outline-none p-4"
               placeholder="Email Address"
             />
-            <button className="btn md:w-auto w-2/3">subscribe</button>
+            <button className="btn md:w-40 w-2/3">subscribe</button>
           </div>
         </div>
       </div>
