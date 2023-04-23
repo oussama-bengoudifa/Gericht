@@ -31,7 +31,7 @@ const Gallery = () => {
             button={"view more"}
           />
         </div>
-        <div className="relative z-0 md:max-w-[50%] max-w-[80%] flex items-center gap-8">
+        <div className="relative z-0 md:max-w-[50%] max-w-[100%] flex items-center gap-8">
           <div className="absolute z-20 h-full left-4 top-0 translate-y-1/2">
             <div
               onClick={() => scrollIt(false)}
