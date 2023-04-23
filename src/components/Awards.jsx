@@ -13,7 +13,7 @@ const Awards = () => {
         }}
         className="w-full min-h-screen  md:relative absolute inset-0 z-10"
       ></div>
-      <div className="relative main md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:absolute z-40 w-full">
+      <div className="md:px-0 px-8 relative main md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:absolute z-40 w-full">
         <div className="flex md:flex-row flex-col gap-20 items-center justify-center">
           <div className="flex flex-col gap-16">
             <Info subtitle="Awards & recognition" title="Our Laurels" />
