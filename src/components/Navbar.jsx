@@ -13,7 +13,7 @@ const Navbar = () => {
   const open = () => setOpened(true);
 
   return (
-    <header className="padding">
+    <header className="padding relative z-50">
       <nav className="flex justify-between items-center">
         <img src={logo} className="object-container md:h-14 h-10" />
         <ul className="text md:flex hidden lg:gap-8 gap-5">
