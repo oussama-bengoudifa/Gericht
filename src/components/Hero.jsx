@@ -35,7 +35,7 @@ const Hero = () => {
                     </div>
                   )}
 
-                  {!shouldShowLoader && hasLoaded && (
+                  {hasLoaded && (
                     <img
                       src={src}
                       alt="hero_img"
