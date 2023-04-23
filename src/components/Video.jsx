@@ -26,7 +26,7 @@ const Video = () => {
   }, [lunched]);
 
   return (
-    <div className="h-screen relative z-0">
+    <div className="md:h-screen h-[60vh] relative z-0">
       <video
         ref={videoRef}
         src={meal}
