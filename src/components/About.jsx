@@ -26,6 +26,7 @@ const About = () => {
             button="Know More"
             right
           />
+
           <img
             src={knife}
             alt="knife"

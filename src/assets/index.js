@@ -17,6 +17,7 @@ import quote from "./quote.svg";
 import step1 from "./1.svg";
 import step2 from "./2.svg";
 import step3 from "./3.svg";
+import loading from "./loading.svg";
 import G from "../../G.svg";
 
 export {
@@ -40,4 +41,5 @@ export {
   pic3,
   pic4,
   contact,
+  loading,
 };

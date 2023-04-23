@@ -1,6 +1,8 @@
-import { hero } from "../assets";
+import { hero, loading } from "../assets";
 
 import { Info } from "../components";
+
+import { ImageLoader } from "react-image-and-background-image-fade";
 
 const Hero = () => {
   return (
@@ -14,7 +16,35 @@ const Hero = () => {
             caption="Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus "
           />
           <div className="h-auto w-[500px]">
-            <img src={hero} alt="hero_img" className="w-[90%] object-contain" />
+            <ImageLoader src={hero} transitionTime="0.3s">
+              {({ hasLoaded, shouldShowLoader, hasFailed, src }) => (
+                <div className="AwesomeOLoader">
+                  {shouldShowLoader && !hasFailed && (
+                    <div className="flex justify-center items-center w-[500px]">
+                      <img
+                        src={loading}
+                        alt="loading_img"
+                        className="w-[10%] object-contain"
+                      />
+                    </div>
+                  )}
+
+                  {hasFailed && (
+                    <div className="AwesomeoLoader__failed">
+                      Awesome-o has failed :(
+                    </div>
+                  )}
+
+                  {!shouldShowLoader && hasLoaded && (
+                    <img
+                      src={src}
+                      alt="hero_img"
+                      className="w-[90%] object-contain"
+                    />
+                  )}
+                </div>
+              )}
+            </ImageLoader>
           </div>
         </div>
       </div>
